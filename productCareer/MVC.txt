@@ -1,0 +1,5 @@
+model view controller架构
+web方向：前端主导的全栈架构
+next.js
+remix
+astro

@@ -1,0 +1,17 @@
+{
+    "markdown.validate.enabled": false,
+    "cSpell.words": [
+        "ckpt",
+        "localfile",
+        "nologin",
+        "oneline",
+        "pycache",
+        "tagname",
+        "venv",
+        "Zang"
+    ],
+    "cSpell.ignoreRegExpList": [
+        // "/\\b[a-z]+[a-z0-9_-]*\\b/",      // 小写开头的短小单词, 命令风格
+        "/\\b[A-Z_]{3,}\\b/"              // MOUNTPOINTS 这类全大写单词
+  ]
+}
