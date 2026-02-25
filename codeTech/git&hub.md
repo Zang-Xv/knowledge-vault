@@ -202,6 +202,18 @@ github上有各种配置的模板，可以方便使用，以免自己不知道�
 
 fetch和pull有什么区别？
 
+fetch -> 取得
+更新本地 git 的版本库, 获取远程仓库的更新
+如果不 fetch 的话, 即使远程仓库更新了, 你在本地 `git status/log` 也是看不到的
+
+pull -> 拉取(拉 + 取)
+同时更新 git 版本库, 并进行 merge 操作
+也就是进行了"取"的操作, 并且"拉"来合并(姑且这样理解区分吧)
+
+但是如果本地有新的 commit 的话, 就会形成分叉
+为了避免分叉, 一般都是使用 `git pull --rebase`
+甚至于有直接将 rebase 设置别名, 直接当作普通的 pull 使用了
+
 ### git命令速记
 
 ```bash
@@ -302,10 +314,10 @@ git tag
 # 用-a指定标签名，-m指定说明文字，id指定提交
 git tag -a v0.1 -m "version 0.1 released" 1094adb
 # 查看标签信息
-git show <tagname>
+git show <tagName>
 
 # 推送标签到远程
-git push origin <tagname> 
+git push origin <tagName> 
 # 删除远程仓库中本地已经删除的标签（推送新的空标签？）
 git push origin :refs/tags/v0.9
 ```
@@ -358,10 +370,10 @@ git config --global user.email "你的邮箱"
 # clone项目只会修改一些默认项目, 几乎没用
 git init
 # clone项目一般会报错已有origin
-git remote add origin git@github.com:Zang-Xv/spark-repl.git
+git remote add origin git@github.com:gitName/spark-repl.git
 
 # 修改config内容 使用set-url
-git remote set-url origin git@github.com:Zang-Xv/spark-repl.git
+git remote set-url origin git@github.com:gitName/spark-repl.git
 ```
 
 #### 编写gitignore
