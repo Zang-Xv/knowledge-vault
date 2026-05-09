@@ -5,6 +5,7 @@
         "localfile",
         "nologin",
         "oneline",
+        "Pandoc",
         "pycache",
         "tagname",
         "venv",
