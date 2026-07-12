@@ -66,3 +66,27 @@
 | 整行删除           | Ctrl + Shift + K        |      |
 | 剪切当前行         | Ctrl + X                |      |
 | 自动整理md表格格式 | Alt + Shift + F         |      |
+
+1. 多光标编辑技巧
+|操作|快捷键（Win/Linux）|快捷键（Mac）|
+|:---:|:---:|:---:|
+|多行选中后每行开头加光标|Alt + Shift + I|Option + Shift + I|
+|同名变量多处选中并同时编辑|Ctrl + D|Cmd + D|
+|所有同名变量高亮并编辑|Ctrl + Shift + L|Cmd + Shift + L|
+|手动添加多个光标|Alt + 鼠标左键|Option + 鼠标左键|
+|快速自动选中|Shift + Alt + →|Shift + Option + →|
+|快速移动整行/块|Alt + ↑ / ↓|Option + ↑ / ↓|
+|复制整行/块|Shift + Alt + ↑ / ↓|Shift + Option + ↑ / ↓|
+
+2. 块选（矩形选中）
+快捷键：Ctrl + Shift + Alt + 箭头 或使用 Shift + Alt + 鼠标拖动
+用于：选中矩形区域，多行中某列统一修改（超级实用）
+
+3. 跳转和定位
+|操作|快捷键（Win/Mac）|
+|:---:|:---:|
+|转到文件|Ctrl + P / Cmd + P|
+|转到定义|F12 / F12|
+|转到函数/段落大纲|Ctrl + Shift + O|
+|上下文搜索|Ctrl + F / Cmd + F|
+|全局搜索替换（输入法快捷切换简繁体）|Ctrl + Shift + F|
